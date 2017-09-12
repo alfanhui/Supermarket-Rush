@@ -1,0 +1,163 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Flare
+  m_Shader: {fileID: 4800000, guid: 4d253e50617802e4e8b947b93082c262, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+    - first:
+        name: _BumpMap
+      second:
+        m_Texture: {fileID: 2800000, guid: 6d3c0bfd2fdd07049b2e57d485db4c77, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Cube
+      second:
+        m_Texture: {fileID: 8900000, guid: a6088d78c0dbf4657b57dcb25a795fcb, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _DecalTex
+      second:
+        m_Texture: {fileID: 2800000, guid: 61de62b508346be458a93d10f27e87d8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Detail
+      second:
+        m_Texture: {fileID: 2800000, guid: 97b050d43ac7c4d2b9f6cbb587650761, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Diffuse
+      second:
+        m_Texture: {fileID: 2800000, guid: 6b837ffda243ccb4f9d3ddb61733e695, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Emission
+      second:
+        m_Texture: {fileID: 2800000, guid: c82621ddc667ca945bb07b266ef369ed, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Illum
+      second:
+        m_Texture: {fileID: 2800000, guid: 61de62b508346be458a93d10f27e87d8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _MainTex
+      second:
+        m_Texture: {fileID: 2800000, guid: 20f808126c812714993d79d3d19b32a7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Normalmap
+      second:
+        m_Texture: {fileID: 2800000, guid: 531c14f8d5cdc4e5baa83ee6e16f783a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _ParallaxMap
+      second:
+        m_Texture: {fileID: 2800000, guid: 6d3c0bfd2fdd07049b2e57d485db4c77, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - first:
+        name: _Alpha
+      second: 0
+    - first:
+        name: _Cutoff
+      second: 0.7392857
+    - first:
+        name: _EmissionLM
+      second: 0
+    - first:
+        name: _Gloss
+      second: 0.5
+    - first:
+        name: _Parallax
+      second: 0.011696428
+    - first:
+        name: _Shininess
+      second: 0.17225015
+    - first:
+        name: _SpecularPower
+      second: 0.5
+    m_Colors:
+    - first:
+        name: _Color
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _ColorEmission
+      second: {r: 0.4980392, g: 0.4980392, b: 0.4980392, a: 1}
+    - first:
+        name: _Emission
+      second: {r: 0.24137974, g: 0, b: 1, a: 0}
+    - first:
+        name: _MainColor
+      second: {r: 0.4980392, g: 0.4980392, b: 0.4980392, a: 1}
+    - first:
+        name: _Pan
+      second: {r: 0, g: 0, b: 0, a: 0}
+    - first:
+        name: _PanBM
+      second: {r: 0, g: 0, b: 0, a: 0}
+    - first:
+        name: _PanD
+      second: {r: 0, g: 0, b: 0, a: 0}
+    - first:
+        name: _PanDT
+      second: {r: 0, g: 0, b: 0, a: 0}
+    - first:
+        name: _PanIL
+      second: {r: 0, g: 0, b: 0, a: 0}
+    - first:
+        name: _PanMT
+      second: {r: 0, g: 0, b: 0, a: 0}
+    - first:
+        name: _PanPM
+      second: {r: 0, g: 0, b: 0, a: 0}
+    - first:
+        name: _ReflectColor
+      second: {r: 1, g: 1, b: 1, a: 0.5921569}
+    - first:
+        name: _RotBM
+      second: {r: 0.5, g: 0.5, b: 0, a: 0}
+    - first:
+        name: _RotD
+      second: {r: 0.5, g: 0.5, b: 0, a: 0}
+    - first:
+        name: _RotDT
+      second: {r: 0.5, g: 0.5, b: 0, a: 0}
+    - first:
+        name: _RotIL
+      second: {r: 0.5, g: 0.5, b: 0, a: 0}
+    - first:
+        name: _RotMT
+      second: {r: 0.5, g: 0.5, b: 0, a: 0}
+    - first:
+        name: _RotPM
+      second: {r: 0.5, g: 0.5, b: 0.81, a: 0}
+    - first:
+        name: _Rotation
+      second: {r: 0, g: 0, b: 0, a: 0}
+    - first:
+        name: _SpecColor
+      second: {r: 0.82068944, g: 1, b: 0, a: 1}
+    - first:
+        name: _SpecularColor
+      second: {r: 0.4980392, g: 0.4980392, b: 0.4980392, a: 1}
